@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Darko Markan</title>
+<meta charset="UTF-8">
+<meta name="description" content="Darko Markan sajt">
+<meta name="keywords" content="darko, markan, sajt, css, html, javascript, jquery">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+<meta name="author" content="Darko Markan">
+<link rel="stylesheet" type="text/css" href="stil2.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+<script>
+$(document).ready(function() {
+$("#meni").click(function() {
+$(".opcije").slideToggle();
+});
+});
+</script>
+
+
+
+<div id="meni">Meni</div>
+<div class="opcije">
+<a href="index.html">O Meni</a><br><br>
+<a href="obrazovanje.html">Obrazovanje</a><br><br>
+<a href="projekti.html">Projekti</a><br><br>
+<a href="kontakt.html">Kontakt</a>
+</div>
+
+<img id="srednja" src="slike/srednja.png" width="250px" height="200px">
+<img id="visa" src="slike/visa.png" width="200px" height="200px">
+<ul id="lista" type="disc">
+<li><a href="https://www.vakademija.edu.rs/">Tehnička škola Petar Drapšin - 2006.</a><br><br>
+- <b>Mašinski tehničar za kompjutersko konstruisanje</b></li><br><br><br>
+<li><a href="https://www.viser.edu.rs/">Visoka škola elektrotehnike i računarstva strukovnih studija - 2010.</a><br><br>
+- <b>Inženjer za elektronsko poslovanje</b></li>
+
+</body>
+
+</html>

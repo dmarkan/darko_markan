@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Darko Markan</title>
+<meta charset="UTF-8">
+<meta name="description" content="Darko Markan sajt">
+<meta name="keywords" content="darko, markan, sajt, css, html, javascript, jquery">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+<meta name="author" content="Darko Markan">
+<link rel="stylesheet" type="text/css" href="stil.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+<script>
+$(document).ready(function() {
+$("#meni").click(function() {
+$(".opcije").slideToggle();
+});
+});
+</script>
+
+<pre id="tekst">
+Zdravo, moje ime je <b>Darko Markan</b>.
+
+Učim programiranje i želja mi je da postanem 
+<i>FullStack Web Developer</i> i da nadjem posao u toj struci. 
+Ovo je moj zvanični sajt i na njemu možete pronaći moje
+projekte, pročitati moju biografiju i videti načine na koje
+me možete kontaktirati ukoliko želite saradnju sa mnom. 
+</pre>
+
+<div id="meni">Meni</div>
+<div class="opcije">
+<a href="index.html">O Meni</a><br><br>
+<a href="obrazovanje.html">Obrazovanje</a><br><br>
+<a href="projekti.html">Projekti</a><br><br>
+<a href="kontakt.html">Kontakt</a>
+</div>
+
+</body>
+
+</html>

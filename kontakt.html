@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Darko Markan</title>
+<meta charset="UTF-8">
+<meta name="description" content="Darko Markan sajt">
+<meta name="keywords" content="darko, markan, sajt, css, html, javascript, jquery">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+<meta name="author" content="Darko Markan">
+<link rel="stylesheet" type="text/css" href="stil4.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+<script>
+$(document).ready(function() {
+$("#meni").click(function() {
+$(".opcije").slideToggle();
+});
+});
+</script>
+
+<div id="meni">Meni</div>
+<div class="opcije">
+<a href="index.html">O Meni</a><br><br>
+<a href="obrazovanje.html">Obrazovanje</a><br><br>
+<a href="projekti.html">Projekti</a><br><br>
+<a href="kontakt.html">Kontakt</a>
+</div>
+<pre id="pitanje">Ako imate neko pitanje za mene, možete ga postaviti ispod a ja
+ću se potruditi da vam odgovorim u najkraćem mogućem roku</pre>
+<form class="forma" name="Pitanja za mene" action="mailto:markandarko@yahoo.com" method="post">
+Postavi mi pitanje:<br><br>
+<input id="labela" type="text" name="pitanje" /><br>
+<input id="dugme" type="submit" value="Pošalji">
+</form>
+<br><br>
+<p>Zapratite me na društvenim mrežama:</p>
+<div class="mreze">
+<a href="https://www.facebook.com/darko.markan.39">
+<img src="slike/facebook.jpg" width="70px" height="55px" />
+</a>
+<a href="https://www.instagram.com/darkomarkan/">
+<img src="slike/instagram.jpg" width="65px" height="55px" />
+</a>
+<a href="https://www.linkedin.com/in/darko-markan-36b922203/">
+<img src="slike/linkedin.png" width="55px" height="55px" />
+</a>
+<a href="https://github.com/dmarkan">
+<img src="slike/github.png" width="60px" height="55px" />
+</a>
+</div>
+
+
+</body>
+
+</html>

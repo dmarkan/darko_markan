@@ -1,0 +1,189 @@
+body {
+	background-color:#F5F5F5;
+	}
+
+	#meni {
+	padding:5px;
+	text-align:center;
+	background-color:#E5E5E5;
+	border:solid 1px #CBD0D8;
+	color:black;
+	font-family:Georgia;
+	width:160px;
+	font-size:20px;
+	margin-left:1200px;
+	cursor:pointer;
+	}
+
+	.opcije {
+	padding:5px;
+	text-align:center;
+	background-color:#F4F3EA;
+	border:solid 1px #CBD0D8;
+	color:black;
+	padding:20px;
+	display:none;
+	font-family:Georgia;
+	font-size:20px;
+	width:130px;
+	text-align:center;
+	margin-left:1200px;
+	position: absolute;
+	overflow:hidden;
+	}
+
+	a {
+	text-decoration:none;
+	color:black;
+	}
+
+	a:hover {
+		opacity:0.7;
+	}
+
+#sajt1 {
+		text-decoration: underline;
+margin-left: 550px;
+font-family:Georgia;
+}
+
+#sajt2 {
+	text-decoration: underline;
+margin-left: 580px;
+font-family:Georgia;
+}
+
+#sajt3 {
+	text-decoration: underline;
+margin-left: 620px;
+font-family:Georgia;
+}
+
+#sajt4 {
+	text-decoration: underline;
+margin-left: 620px;
+font-family:Georgia;
+}
+#sajt5 {
+	text-decoration: underline;
+margin-left: 510px;
+font-family:Georgia;
+}
+
+#sajt6 {
+	text-decoration: underline;
+margin-left: 620px;
+font-family:Georgia;
+}
+
+#sajt7 {
+	text-decoration: underline;
+margin-left: 610px;
+font-family:Georgia;
+}
+
+#sajt8 {
+	text-decoration: underline;
+margin-left: 570px;
+font-family:Georgia;
+}
+
+#sajt1:hover {
+	opacity:0.7;
+}
+
+#sajt2:hover {
+	opacity:0.7;
+}
+
+#sajt3:hover {
+	opacity:0.7;
+}
+
+#sajt4:hover {
+	opacity:0.7;
+}
+
+#sajt5:hover {
+	opacity:0.7;
+}
+
+#sajt6:hover {
+	opacity:0.7;
+}
+
+#sajt7:hover {
+	opacity:0.7;
+}
+
+#sajt8:hover {
+	opacity:0.7;
+}
+
+#tekst1 {
+	margin-left: 330px;
+	cursor: default;
+	font-size: 25px;
+	font-family:Georgia;
+}
+
+#tekst2 {
+	margin-left: 320px;
+	cursor: default;
+	font-size: 25px;
+	font-family:Georgia;
+}
+
+#tekst3 {
+	margin-left: 450px;
+	cursor: default;
+	font-size: 25px;
+	font-family:Georgia;
+}
+
+#tekst4 {
+	margin-left: 240px;
+	cursor: default;
+	font-size: 25px;
+	font-family:Georgia;
+}
+
+#tekst5 {
+	margin-left: 300px;
+	cursor: default;
+	font-size: 25px;
+	font-family:Georgia;
+}
+
+#tekst6 {
+	margin-left: 350px;
+	cursor: default;
+	font-size: 25px;
+	font-family:Georgia;
+}
+
+#tekst7 {
+	margin-left: 320px;
+	cursor: default;
+	font-size: 25px;
+	font-family:Georgia;
+}
+
+#tekst8 {
+	margin-left: 400px;
+	cursor: default;
+	font-size: 25px;
+	font-family:Georgia;
+}
+
+#logos {
+	margin-left: 500px;
+}
+
+#logos2 {
+	margin-left: 590px;
+}
+
+#jquery {
+	margin-left: 0;
+}
